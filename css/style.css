@@ -17,7 +17,12 @@ body {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "EB Garamond";
 }
 
@@ -45,4 +50,31 @@ h1, h2, h3, h4, h5, h6 {
 .hero-button {
   padding: 12px 25px;
   background: #b68c5a;
+}
+
+/*
+    Area section
+ */
+.area-section h2,
+h3 {
+  color: #414040;
+}
+
+.area-section p {
+  color: #707070;
+}
+
+.area-section span {
+  height: 2rem;
+  width: 2rem;
+  background: #b68c5a;
+  cursor: pointer;
+}
+
+.area-section .card-container {
+  border: 1px solid #e7e7e7;
+}
+
+.card-container:hover {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
 }
