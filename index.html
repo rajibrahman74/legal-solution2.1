@@ -10,7 +10,7 @@
     <!-- 
         Fav-icon is associated with HTML
      -->
-    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
     <!-- 
         Bootstrap css cdn link is associated with HTML
@@ -30,6 +30,74 @@
 </head>
 
 <body>
+
+    <!-- 
+        Header and navigation
+     -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo2.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary-emphasis" aria-current="page" href="#">Services<i
+                                    class="fa-solid fa-chevron-right"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary-emphasis" aria-current="page" href="#">Cases<i
+                                    class="fa-solid fa-chevron-right"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary-emphasis" aria-current="page" href="#">Blog<i
+                                    class="fa-solid fa-chevron-right"></i> </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-secondary-emphasis" aria-current="page" href="#">Contact Us<i
+                                    class="fa-solid fa-chevron-right"></i> </a>
+                        </li>
+                    </ul>
+                    <button type="button" class="nav-button border-0 px-4 py-3 rounded-3 text-white fw-semibold"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Free Consultation
+                    </button>
+                    <!-- 
+                        Navbar consultation information
+                     -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5 text-success fw-semibold" id="exampleModalLabel">
+                                        Consultation Information</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Expert extérieur à l'entreprise, le consultant informatique apporte ses
+                                        connaissances à des clients désireux de faire évoluer leur système.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                        class="btn btn-success px-3 py-2 rounded-3 text-white border-0"
+                                        data-bs-dismiss="modal">Salam bai🫡</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 
 
