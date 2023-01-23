@@ -14,14 +14,35 @@
 
 body {
   font-family: "Poppins";
+  scroll-behavior: smooth;
 }
 
-
+h1, h2, h3, h4, h5, h6 {
+  font-family: "EB Garamond";
+}
 
 /*
     Hero section and navbar
  */
 
 .nav-button {
-    background: #B68C5A;
+  background: #b68c5a;
+}
+
+.hero-section {
+  height: 95vh;
+  background-image: url("/images/banner.png"),
+    linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-section p {
+  color: #e7e7e7;
+}
+
+.hero-button {
+  padding: 12px 25px;
+  background: #b68c5a;
 }
