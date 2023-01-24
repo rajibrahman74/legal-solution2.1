@@ -26,11 +26,13 @@ h6 {
   font-family: "EB Garamond";
 }
 
-.section-title, .card-title {
+.section-title,
+.card-title {
   color: #414040;
 }
 
-.section-description, .card-description {
+.section-description,
+.card-description {
   color: #707070;
 }
 
@@ -121,4 +123,25 @@ h6 {
 
 .question-section p {
   color: #707070;
+}
+
+/*
+    Contact section
+ */
+
+.contact-content {
+  border: 1px solid #e7e7e7;
+}
+
+.contact-content img {
+  width: 40px;
+  height: 40px;
+}
+
+form .message {
+    padding-bottom: 163px;
+}
+
+form button {
+  background: #b68c5a;
 }
