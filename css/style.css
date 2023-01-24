@@ -87,21 +87,26 @@ h6 {
     Our clients reviwe
  */
 
-.carousel-item {
+.carousel-item-one {
+  background: url("../images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
   height: 450px;
-  background: url("/images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.carousel-item-one {
-  background: url("/images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
-}
-.carousel-item-tw0 {
-  background: url("/images/slider-2.jpg"), rgba(17, 17, 17, 0.8);
+.carousel-item-two {
+  background: url("../images/slider-2.jpg"), rgba(17, 17, 17, 0.8);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .carousel-item-three {
-  background: url("/images/slider-3.jpg"), rgba(17, 17, 17, 0.8);
+  background: url("../images/slider-3.jpg"), rgba(17, 17, 17, 0.8);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .carousel-content img {
@@ -132,6 +137,9 @@ h6 {
 .contact-content {
   border: 1px solid #e7e7e7;
 }
+.contact-content:hover {
+  background: #f3f3f3;
+}
 
 .contact-content img {
   width: 40px;
@@ -155,7 +163,8 @@ footer {
 }
 
 footer p,
-a, small {
+a,
+small {
   color: #cfcfcf;
 }
 
@@ -167,5 +176,5 @@ footer form button {
 }
 
 footer form button i {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
