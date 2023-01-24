@@ -26,6 +26,14 @@ h6 {
   font-family: "EB Garamond";
 }
 
+.section-title, .card-title {
+  color: #414040;
+}
+
+.section-description, .card-description {
+  color: #707070;
+}
+
 /*
     Hero section and navbar
  */
@@ -55,14 +63,6 @@ h6 {
 /*
     Area section
  */
-.area-section h2,
-h3 {
-  color: #414040;
-}
-
-.area-section p {
-  color: #707070;
-}
 
 .area-section span {
   height: 2rem;
@@ -81,19 +81,9 @@ h3 {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
 }
 
-
-
 /*
     Our clients reviwe
  */
-
-.our-clients h2 {
-  color: #414040;
-}
-
-.our-clients p {
-  color: #707070;
-}
 
 .carousel-item {
   height: 450px;
@@ -112,24 +102,23 @@ h3 {
   background: url("/images/slider-3.jpg"), rgba(17, 17, 17, 0.8);
 }
 
-.carousel-caption img {
+.carousel-content img {
   width: 70px;
 }
 
-.carousel-caption p {
+.carousel-content p {
   color: #f3f3f3;
   font-size: 15px;
 }
-
 
 /*
     Question and Answer section
  */
 
- .question-section h2, button {
-    color: #414040;
-  }
-  
-  .question-section p {
-    color: #707070;
-  }  
+.question-section button {
+  color: #414040;
+}
+
+.question-section p {
+  color: #707070;
+}
