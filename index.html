@@ -236,7 +236,8 @@
          -->
         <section class="container our-clients mb-5 pb-5">
             <h2 class="fw-blder display-6 text-center">What Our Client Say</h2>
-            <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have
+            <p class="text-center pt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                have
                 <br> suffered alteration
                 in some form, by injected humour.
             </p>
@@ -251,16 +252,18 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active carousel-item-one rounded-3">
-                        <div class="carousel-caption mb-5">
+                        <div class="carousel-caption">
+                            <div class="">
                                 <img src="images/clients.jpg" class="rounded-circle" alt="">
                                 <h5 class="text-white fw-bolder fs-3">Rajib Rahman</h5>
-                                <p class="text-white pb-3">Frontend Developer</p>
-                                <p class="pb-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                <p class="text-white">Frontend Developer</p>
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It
                                     has roots in a piece of classical Latin literature from 45 BC, making it over 2000
                                     years
                                     old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
                                     looked
                                     up one of the more obscure Latin words, consectetur.</p>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item carousel-item-two rounded-3">
@@ -274,7 +277,7 @@
                                 old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
                                 looked
                                 up one of the more obscure Latin words, consectetur.</p>
-                    </div>
+                        </div>
                     </div>
                     <div class="carousel-item carousel-item-three rounded-3">
                         <div class="carousel-caption mb-5">
@@ -287,7 +290,7 @@
                                 old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
                                 looked
                                 up one of the more obscure Latin words, consectetur.</p>
-                    </div>
+                        </div>
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -302,7 +305,114 @@
                 </button>
             </div>
         </section>
+
+        <!-- 
+            Question and Answer section
+         -->
+        <section class="container py-5 question-section">
+            <h2 class="fw-bolder text-center display-6">Frequently Asked Any Questions</h2>
+            <p class="text-center pt-3">There are many variations of passages of Lorem Ipsum available, but the majority
+                have <br> suffered alteration
+                in some form, by injected humour.</p>
+            <div class="row pt-5 g-5 align-items-center">
+                <div class="col-md-6">
+                    <div>
+                        <img src="images/faq.png" class="w-75 m-auto" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    (i). What is the difference between flex and grid?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">CSS <span class="fw-semibold fst-italic">Grid</span> and
+                                    <span class="fw-semibold fst-italic">Flexbox</span> are layout models that share
+                                    similarities and can even be used together. The main difference is that you can use
+                                    CSS Grid to create two-dimensional layouts. In contrast, you can only use Flexbox to
+                                    create one-dimensional layouts. That means you can place components along the X- and
+                                    Y-axis in CSS Grid and only one axis in Flexbox.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    (ii). What is the purpose of media queries?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"> <span class="fw-semibold fst-italic">Media queries</span>
+                                    are a feature of CSS that enable <span class="fw-semibold fst-italic">webpage
+                                        content</span> to adapt to different screen sizes and resolutions. They are a
+                                    fundamental part of responsive web design and are used to customize the appearance
+                                    of websites for multiple devices.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    (iii). What is css box-model and how it work?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Every element that can be displayed on a web page is
+                                    comprised of one or more rectangular boxes. <span class="fw-semibold fst-italic">CSS
+                                        box model</span> typically describes how these rectangular boxes are laid out on
+                                    a web page. These boxes can have different properties and can interact with each
+                                    other in different ways, but every box has a <span
+                                        class="fw-semibold fst-italic">content area</span> and optional surrounding
+                                    <span class="fw-semibold fst-italic">padding</span>, <span
+                                        class="fw-semibold fst-italic">border</span>, and <span
+                                        class="fw-semibold fst-italic">margin areas</span>.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed fw-bold fs-5" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    (iv). What are semantic tags in HTML?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body"><span class="fw-semibold fst-italic">Semantic tags</span>
+                                    clearly define the purpose of the HTML
+                                    element. It also describes the type of content that the element should contain.
+
+                                    For example, <span class="fw-semibold fst-italic">&lt;header&gt;</span>, <span
+                                        class="fw-semibold fst-italic">&lt;nav&gt;</span>, <span
+                                        class="fw-semibold fst-italic">&lt;main&gt;</span>, <span
+                                        class="fw-semibold fst-italic">&lt;section&gt;</span>, <span
+                                        class="fw-semibold fst-italic">&lt;article&gt;</span>, <span
+                                        class="fw-semibold fst-italic">&lt;aside&gt;</span> and <span
+                                        class="fw-semibold fst-italic">&lt;footer&gt;</span> are considered semantic
+                                    elements as they
+                                    clearly describe their purpose and the type of content they should
+                                    enclose.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    
     <!-- 
         Bootstrap js cdn link is associated with HTML
      -->
