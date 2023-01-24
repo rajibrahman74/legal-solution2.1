@@ -155,7 +155,7 @@ footer {
 }
 
 footer p,
-a {
+a, small {
   color: #cfcfcf;
 }
 
