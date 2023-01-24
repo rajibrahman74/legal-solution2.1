@@ -138,10 +138,34 @@ h6 {
   height: 40px;
 }
 
-form .message {
-    padding-bottom: 163px;
+.contact-form form .message {
+  padding-bottom: 163px;
 }
 
 form button {
   background: #b68c5a;
+}
+
+/*
+    Footer section
+ */
+
+footer {
+  background: #111111;
+}
+
+footer p,
+a {
+  color: #cfcfcf;
+}
+
+footer form button {
+  background: #b68c5a;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-left: -8px;
+}
+
+footer form button i {
+    font-size: 1.3rem;
 }
