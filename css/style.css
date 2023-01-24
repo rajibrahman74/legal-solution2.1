@@ -36,7 +36,7 @@ h6 {
 
 .hero-section {
   height: 95vh;
-  background-image: url("/images/banner.png"),
+  background-image: url("../images/banner.png"),
     linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
   background-repeat: no-repeat;
   background-position: center;
@@ -55,12 +55,14 @@ h6 {
 /*
     Area section
  */
-.area-section h2,
+.area-section,
+.our-clients h2,
 h3 {
   color: #414040;
 }
 
-.area-section p {
+.area-section,
+.our-clients p {
   color: #707070;
 }
 
@@ -79,4 +81,36 @@ h3 {
 
 .card-container:hover {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+}
+
+
+
+/*
+    Our clients reviwe
+ */
+
+.carousel-item {
+  height: 500px;
+  background: url("/images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.carousel-item-one {
+  background: url("/images/slider-1.jpg"), rgba(17, 17, 17, 0.8);
+}
+.carousel-item-tw0 {
+  background: url("/images/slider-2.jpg"), rgba(17, 17, 17, 0.8);
+}
+.carousel-item-three {
+  background: url("/images/slider-3.jpg"), rgba(17, 17, 17, 0.8);
+}
+
+.carousel-caption img {
+  width: 70px;
+}
+
+.carousel-caption p {
+  color: #f3f3f3;
+  font-size: 15px;
 }
